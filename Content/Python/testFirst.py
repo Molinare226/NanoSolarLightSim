@@ -602,7 +602,6 @@ def render(path, hour, minute, location_id):
         path
     )
 
-    # 必须明确指定输出协议
     capture.set_image_capture_protocol_type(
         unreal.ImageSequenceProtocol_PNG
     )
@@ -615,7 +614,6 @@ def render(path, hour, minute, location_id):
         f"{time_id}"
     )
 
-    # 图片序列必须包含 {frame}
     settings.output_format = (
         f"{location_id}_{time_id}_"
         "{frame}"
@@ -647,7 +645,6 @@ def render(path, hour, minute, location_id):
         onRenderFinished
     )
 
-    # 异步期间必须保持 Python 引用
     _active_capture = capture
     _active_callback = callback
 
