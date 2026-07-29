@@ -25,7 +25,6 @@ Input:
 
 - Latitude
 - Longitude
-- Altitude
 
 
 Example:
