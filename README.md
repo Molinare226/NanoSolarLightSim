@@ -25,7 +25,6 @@ Input:
 
 - Latitude
 - Longitude
-- Altitude
 
 
 Example:
@@ -87,7 +86,9 @@ Full-day solar simulation
 Solar radiation estimation
 Photovoltaic performance prediction
 Weather data integration
-Author
+```
+
+## Author
 
 Xieyu Huang
 University of Sydney
