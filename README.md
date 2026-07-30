@@ -66,15 +66,17 @@ Rendered Output
 
 ## Usage
 
-Run the Python script:
+Run the Python script in the logPython of UE:
 
 ```python
-run_all(
+import testFirst as tsf 
+tsf.run_all(
     -33.889847,
     151.191894
 )
+```
 
-The system will automatically:
+## The system will automatically:
 
 Spawn the solar bench
 Detect ground height
@@ -86,7 +88,7 @@ Full-day solar simulation
 Solar radiation estimation
 Photovoltaic performance prediction
 Weather data integration
-```
+
 
 ## Author
 
